@@ -1,0 +1,17 @@
+{
+tasks.map(task=>(
+<div key={task._id}>
+
+<h4>{task.title}</h4>
+
+<button
+onClick={()=>
+deleteTask(task._id)
+}
+>
+Delete
+</button>
+
+</div>
+))
+}
