@@ -1,0 +1,10 @@
+client/src/
+
+├── pages/
+│   ├── Login.js
+│   ├── Register.js
+│   └── Dashboard.js
+│
+├── App.js
+├── index.js
+└── App.css
